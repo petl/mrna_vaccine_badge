@@ -16,3 +16,6 @@
 /pcb/*.b#?
 /pcb/*.l#?
 /pcb/*.lck
+
+# Ignore the Assembly stuff
+/pcb/BOM/

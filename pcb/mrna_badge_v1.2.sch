@@ -375,6 +375,66 @@ at 27/07/2012 14:02:49</description>
 <text x="-4.445" y="-5.5626" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="QFN50P400X400X80-21N_FOOTPRINT">
+<smd name="1" x="-1.8796" y="0.9906" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="2" x="-1.8796" y="0.508" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="3" x="-1.8796" y="0" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="4" x="-1.8796" y="-0.508" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="5" x="-1.8796" y="-0.9906" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="6" x="-0.9906" y="-1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="7" x="-0.508" y="-1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="8" x="0" y="-1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="9" x="0.508" y="-1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="10" x="0.9906" y="-1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="11" x="1.8796" y="-0.9906" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="12" x="1.8796" y="-0.508" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="13" x="1.8796" y="0" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="14" x="1.8796" y="0.508" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="15" x="1.8796" y="0.9906" dx="0.3048" dy="0.8636" layer="1" rot="R270"/>
+<smd name="16" x="0.9906" y="1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="17" x="0.508" y="1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="18" x="0" y="1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="19" x="-0.508" y="1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="20" x="-0.9906" y="1.8796" dx="0.3048" dy="0.8636" layer="1" rot="R180"/>
+<smd name="21" x="0" y="0" dx="2.4384" dy="2.4384" layer="1"/>
+<wire x1="1.016" y1="-2.6162" x2="1.016" y2="-3.6576" width="0.1524" layer="21"/>
+<wire x1="2.0066" y1="1.4732" x2="2.0066" y2="2.0066" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="-2.0066" x2="2.0066" y2="-2.0066" width="0.1524" layer="21"/>
+<wire x1="-2.0066" y1="-1.4732" x2="-2.0066" y2="-2.0066" width="0.1524" layer="21"/>
+<wire x1="-1.4732" y1="2.0066" x2="-2.0066" y2="2.0066" width="0.1524" layer="21"/>
+<wire x1="-2.0066" y1="-2.0066" x2="-1.4732" y2="-2.0066" width="0.1524" layer="21"/>
+<wire x1="2.0066" y1="-2.0066" x2="2.0066" y2="-1.4732" width="0.1524" layer="21"/>
+<wire x1="2.0066" y1="2.0066" x2="1.4732" y2="2.0066" width="0.1524" layer="21"/>
+<wire x1="-2.0066" y1="2.0066" x2="-2.0066" y2="1.4732" width="0.1524" layer="21"/>
+<wire x1="-2.0066" y1="0.7366" x2="-0.7366" y2="2.0066" width="0" layer="51"/>
+<wire x1="1.143" y1="2.0066" x2="0.8382" y2="2.0066" width="0" layer="51"/>
+<wire x1="0.6604" y1="2.0066" x2="0.3556" y2="2.0066" width="0" layer="51"/>
+<wire x1="0.1524" y1="2.0066" x2="-0.1524" y2="2.0066" width="0" layer="51"/>
+<wire x1="-0.3556" y1="2.0066" x2="-0.6604" y2="2.0066" width="0" layer="51"/>
+<wire x1="-0.8382" y1="2.0066" x2="-1.143" y2="2.0066" width="0" layer="51"/>
+<wire x1="-2.0066" y1="1.143" x2="-2.0066" y2="0.8382" width="0" layer="51"/>
+<wire x1="-2.0066" y1="0.6604" x2="-2.0066" y2="0.3556" width="0" layer="51"/>
+<wire x1="-2.0066" y1="0.1524" x2="-2.0066" y2="-0.1524" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-0.3556" x2="-2.0066" y2="-0.6604" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-0.8382" x2="-2.0066" y2="-1.143" width="0" layer="51"/>
+<wire x1="-1.143" y1="-2.0066" x2="-0.8382" y2="-2.0066" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-2.0066" x2="-0.3556" y2="-2.0066" width="0" layer="51"/>
+<wire x1="-0.1524" y1="-2.0066" x2="0.1524" y2="-2.0066" width="0" layer="51"/>
+<wire x1="0.3556" y1="-2.0066" x2="0.6604" y2="-2.0066" width="0" layer="51"/>
+<wire x1="0.8382" y1="-2.0066" x2="1.143" y2="-2.0066" width="0" layer="51"/>
+<wire x1="2.0066" y1="-1.143" x2="2.0066" y2="-0.8382" width="0" layer="51"/>
+<wire x1="2.0066" y1="-0.6604" x2="2.0066" y2="-0.3556" width="0" layer="51"/>
+<wire x1="2.0066" y1="-0.1524" x2="2.0066" y2="0.1524" width="0" layer="51"/>
+<wire x1="2.0066" y1="0.3556" x2="2.0066" y2="0.6604" width="0" layer="51"/>
+<wire x1="2.0066" y1="0.8382" x2="2.0066" y2="1.143" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-2.0066" x2="2.0066" y2="-2.0066" width="0" layer="51"/>
+<wire x1="2.0066" y1="-2.0066" x2="2.0066" y2="2.0066" width="0" layer="51"/>
+<wire x1="2.0066" y1="2.0066" x2="-2.0066" y2="2.0066" width="0" layer="51"/>
+<wire x1="-2.0066" y1="2.0066" x2="-2.0066" y2="-2.0066" width="0" layer="51"/>
+<text x="-4.445" y="-5.5626" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<circle x="-1.6002" y="1.651" radius="0.0254" width="0.6096" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATTINY24A-MU">
@@ -446,6 +506,34 @@ at 27/07/2012 14:02:49</description>
 <attribute name="PACKAGE" value="QFN-20" constant="no"/>
 <attribute name="SUPPLIER" value="Atmel" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="FOOT" package="QFN50P400X400X80-21N_FOOTPRINT">
+<connects>
+<connect gate="A" pin="DNC" pad="6"/>
+<connect gate="A" pin="DNC_2" pad="7"/>
+<connect gate="A" pin="DNC_3" pad="10"/>
+<connect gate="A" pin="DNC_4" pad="17"/>
+<connect gate="A" pin="DNC_5" pad="18"/>
+<connect gate="A" pin="DNC_6" pad="19"/>
+<connect gate="A" pin="EP" pad="21"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="PA0" pad="5"/>
+<connect gate="A" pin="PA1" pad="4"/>
+<connect gate="A" pin="PA2" pad="3"/>
+<connect gate="A" pin="PA3" pad="2"/>
+<connect gate="A" pin="PA4" pad="1"/>
+<connect gate="A" pin="PA5" pad="20"/>
+<connect gate="A" pin="PA6" pad="16"/>
+<connect gate="A" pin="PA7" pad="15"/>
+<connect gate="A" pin="PB1" pad="12"/>
+<connect gate="A" pin="PB2" pad="14"/>
+<connect gate="A" pin="PB3" pad="13"/>
+<connect gate="A" pin="PBO" pad="11"/>
+<connect gate="A" pin="VCC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -9033,7 +9121,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="U3" library="Atmel_By_element14_Batch_1-00" deviceset="ATTINY24A-MU" device=""/>
+<part name="U3" library="Atmel_By_element14_Batch_1-00" deviceset="ATTINY24A-MU" device="FOOT" value="ATTINY24A-MUFOOT"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
