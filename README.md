@@ -11,20 +11,18 @@ The sequences are stored encoded into 2 bits per nucleotide using [encode_genome
 Current draw is ~3mA depending on which color LEDs are active at the moment (the blue ones are a lot more efficient than the red ones). A CR2032 coin cell should last for at least 10h of continuous use (one run through the sequence takes ~10min, and it automatically shuts off afterwards).
 Standby current draw is ~0.15µA, should last basically forever (years).
 
-### Components:
+### Schematics:
+![](https://github.com/petl/mrna_vaccine_badge/blob/main/schematics_v1.2.png)
+Version 1.2 of the schematics. 
 
-- 1 x ATtiny1617 MCU
-- 1 x SMD button (SMD-BUTTON(2P-3.0X2.5X1.2+0.4MM)-B3U-1000P-2P-SMD)
-- 1 x CR2032 Coin cell clip
-- 2 x blue 0805 LED
-- 2 x green 0805 LED
-- 2 x yellow 0805 LED
-- 2 x red 0805 LED
-- 2 x 2.2kΩ 0805 resistor (for green LEDs)
-- 2 x 910Ω 0805 resistor (for blue LEDs)
-- 2 x 470Ω 0805 resistor (for red LEDs)
-- 2 x 240Ω 0805 resistor (for yellow LEDs)
+* Microcontroller can be programmed via Arduino over the Atmel ICSP programming pinout. Can be drop-in replaced with ATTiny44/ATTiny84.
+* Li-ion LiPo battery has a charge/discharge/overtemperature and short circuit protection.
+* Battery charging indicators on the backside. 
+* Micro USB for charging. 
+* Button (Momentary Switch) is hooked to an interrupt. 
+* LEDs are not multi(/charlie)plexed for easier programming. 
 
-There's a footprint for a ceramic capacitor, but it's not needed and I had issues with leakage current with cheap chinese ones (even 1µA really hurts the standby lifetime). 
+### Components
 
-(The one in the video has wrong (lower) resistor values, which burns a lot more power for negligible increase in brightness.)
+BOM (Bill of Materials) to be added later on if needed. 
+
