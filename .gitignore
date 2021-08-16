@@ -18,4 +18,5 @@
 /pcb/*.lck
 
 # Ignore the Assembly stuff
+
 /pcb/BOM/
