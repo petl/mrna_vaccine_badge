@@ -8,3 +8,10 @@
 /mrna_vaccine_badge_code.X/nbproject/Makefile-*
 /mrna_vaccine_badge_code.X/nbproject/Package-*
 /mrna_vaccine_badge_code.X/nbproject/private/
+
+# Ignore list for Eagle, a PCB layout tool
+
+# Backup files
+/pcb/*.s#?
+/pcb/*.b#?
+/pcb/*.l#?
