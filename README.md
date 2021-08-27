@@ -12,7 +12,7 @@ Current draw is ~3mA depending on which color LEDs are active at the moment (the
 Standby current draw is ~0.15µA, should last basically forever (years).
 
 ### Schematics:
-![](https://github.com/petl/mrna_vaccine_badge/blob/main/schematics_v1.2.png)
+![](https://github.com/petl/mrna_vaccine_badge/blob/main/documents/schematics_v1.2.png)
 Version 1.2 of the schematics. 
 
 * Microcontroller can be programmed via Arduino over the Atmel ICSP programming pinout. Can be drop-in replaced with ATTiny44/ATTiny84.
