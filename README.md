@@ -1,7 +1,5 @@
 # mRNA vaccine badge
 
-[![](video_link_image.jpg)](https://youtu.be/r8VF4bMJ7uo "Project video")
-
 A small badge showing a schematic of an mRNA vaccine nanoparticle and blinking the RNA sequence of the Moderna or Pfizer vaccines. (Switch between vaccines by long pressing (>1s) the button to enter the menu, short pressing to switch, and long pressing to save).
 
 [![](https://github.com/petl/mrna_vaccine_badge/blob/main/documents/photos_sorted/IMG_20210912_193253.jpg)
@@ -20,6 +18,11 @@ There are always two nucleotides shown, one on the left 4 LEDs and one on the ri
 The micro USB on the back is for recharging a LiPo cell. The circuitry features over charge-/discharge, temperature and short circuit protection.
 
 It takes a couple of minutes to run through the whole sequence, but the battery should last over 100hours. It plays the sequence once and goes to sleep afterwards, the vaccine can be changed (Moderna / Pfizer) by keeping the button pressed while turning the badge on. 
+
+
+![](https://github.com/petl/mrna_vaccine_badge/blob/main/documents/photos_sorted/IMG_20210912_202905.jpg)
+Backside with LiPo cell soldered on]
+
 
 The sequences are stored encoded into 2 bits per nucleotide using [encode_genome.py](encode_genome.py).
 
