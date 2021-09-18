@@ -8496,7 +8496,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="U3" library="Atmel_By_element14_Batch_1-00" deviceset="ATTINY24A-MU" device="FOOT" value="ATTINY24A-MUFOOT"/>
+<part name="U3" library="Atmel_By_element14_Batch_1-00" deviceset="ATTINY24A-MU" device="FOOT" value="ATTINY44A-MU"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
