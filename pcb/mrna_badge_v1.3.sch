@@ -9114,6 +9114,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="91.44" y1="48.26" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <junction x="91.44" y="48.26"/>
 <label x="93.98" y="40.64" size="1.778" layer="95"/>
+<wire x1="91.44" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
