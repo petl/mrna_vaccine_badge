@@ -2,6 +2,8 @@
 
 A small badge showing a schematic of an mRNA vaccine nanoparticle and blinking the RNA sequence of the Moderna or Pfizer vaccines. (Switch between vaccines by long pressing (>1s) the button to enter the menu, short pressing to switch, and long pressing to save).
 
+There are a few units on Tindie in case you just want to buy one:  <a href='https://www.tindie.com/products/petl/mrna-vaccine-badge-rechargeable/'>tindie</a>
+
 [![](https://github.com/petl/mrna_vaccine_badge/blob/main/documents/photos_sorted/IMG_20210912_193253.jpg)
 The unit in action (VIDEO)](https://vimeo.com/603445821 "badge in action")
 
